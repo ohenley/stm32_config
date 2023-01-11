@@ -12,4 +12,5 @@ maintainers-logins = ["wolfbiters"]
 
 [configuration.variables]
 mcu = { type = "Enum", values = ["stm32f429x"], default = "stm32f429x" }
-runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
+board = { type = "Enum", values = ["stm32f4" , "stm32f429disco", "stm32f469disco", "stm32f746disco", "stm32f769disco"], default = "stm32f4" }
+runtime = { type = "Enum", values = ["embedded", "light", "light_tasking"], default = "embedded" }
