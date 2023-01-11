@@ -4,7 +4,7 @@ version = "0.1.0-dev"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/stm32_config
+website = "https://github.com/wolfbiters/stm32_config"
 
 authors = ["wolf biters"]
 maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
@@ -12,4 +12,4 @@ maintainers-logins = ["wolfbiters"]
 
 [configuration.variables]
 mcu = { type = "Enum", values = ["stm32f429x"], default = "stm32f429x" }
-runtime = { type = "Enum", values = ["embedded"], default = "embedded" }"]
+runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
