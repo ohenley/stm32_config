@@ -14,3 +14,4 @@ maintainers-logins = ["wolfbiters"]
 mcu = { type = "Enum", values = ["stm32f429x"], default = "stm32f429x" }
 board = { type = "Enum", values = ["stm32f4" , "stm32f429disco", "stm32f469disco", "stm32f746disco", "stm32f769disco"], default = "stm32f429disco" }
 runtime = { type = "Enum", values = ["embedded", "light", "light_tasking"], default = "embedded" }
+HSE_value = {type = "integer", first = 0, default = 8000000}
