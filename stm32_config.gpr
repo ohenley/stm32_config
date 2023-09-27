@@ -10,9 +10,9 @@ project Stm32_Config is
       when "stm32f429disco" =>
          Src_Dirs := Src_Dirs & ("src/stm32f429disco/" & Stm32_Config_Config.Runtime);
       when "stm32f407disco" =>
-         Src_Dirs := Src_Dirs & ("src/stm32f407disco" & Stm32_Config_Config.Runtime);
+         Src_Dirs := Src_Dirs & ("src/stm32f407disc/" & Stm32_Config_Config.Runtime);
       when "stm32f746disco" =>
-         Src_Dirs := Src_Dirs & ("src/stm32f746disco" & Stm32_Config_Config.Runtime);
+         Src_Dirs := Src_Dirs & ("src/stm32f746disco/" & Stm32_Config_Config.Runtime);
       when others => null;
    end case;
 
